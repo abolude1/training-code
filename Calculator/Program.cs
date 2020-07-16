@@ -91,7 +91,7 @@ namespace Calculator
                Divide(input7, input8);
               break;
 
-              case "default":
+              default:
                 stay = false;
                 break;
             }
@@ -119,7 +119,6 @@ namespace Calculator
             var result = operand7 / operand8;
             System.Console.WriteLine($"your answer is: {result}");
 
-            System.Console.ReadLine();
            }
       }
     }
